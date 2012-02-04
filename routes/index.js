@@ -1,4 +1,4 @@
-var node_lua = require('../build/Release/node_lua')
+var node_lua = require('node_lua')
 /*
  * GET home page.
 */
