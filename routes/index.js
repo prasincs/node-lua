@@ -20,4 +20,5 @@ exports.runLua = function(req, res){
   console.log(code);
   node_lua.runLua(code);
   res.send(output);
+  res.end();
 };
