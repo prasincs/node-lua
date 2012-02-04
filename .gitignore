@@ -1,0 +1,5 @@
+build
+*~
+.lock-wscript
+*.swp
+*.swo

@@ -1,0 +1,16 @@
+{
+  "author": "Prasanna Gautam <prasannagautam@gmail.com> (http://nextdoorhacker.com)",
+  "name": "cpp-lua",
+  "description": "An experimental application to run lua from inside Node.js",
+  "version": "0.0.1",
+  "homepage": "http://nextdoorhacker.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:prasincs/node-cpp-lua.git"
+  },
+  "engines": {
+    "node": "~v0.4.11"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,6 @@
+- Install node.js and lua
+
+- `node-waf configure build`
+
+- `node test.js`
+
