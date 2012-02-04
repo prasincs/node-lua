@@ -24,7 +24,8 @@ def build(bld):
   obj.target = 'node_lua'
   obj.source = 'node_lua.cpp'
   #if 'SERVER' in environ:
-  bld.env.append_value('LINKFLAGS', [ '../heroku/lib/liblua.a'])
-  bld.env.append_value('INCPATHS', ['../heroku/include'])
+  obj.cxxflags = [ "./heroku/lib/liblua.a" , "-I./heroku/include"]
+  #bld.env.append_value('LINKFLAGS', [ srcpath()+'/heroku/lib/liblua.a'])
+  #bld.env.append_value('INCPATHS', [ srcpath()+'/heroku/include'])
   #else:
   #  bld.env.append_value('LINKFLAGS', '-llua -ldl'.split())
