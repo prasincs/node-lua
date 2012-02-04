@@ -3,3 +3,4 @@ build
 .lock-wscript
 *.swp
 *.swo
+node_modules
