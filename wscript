@@ -24,7 +24,7 @@ def build(bld):
   obj.target = 'node_lua'
   obj.source = 'node_lua.cpp'
   if 'SERVER' in environ:
-    bld.env.append_value('LINKFLAGS', [ '/apps/vendor/lua-5.1.4/lib/liblua.a])
+    bld.env.append_value('LINKFLAGS', [ '/apps/vendor/lua-5.1.4/lib/liblua.a'])
     bld.env.append_value('INCPATHS', ['/apps/vendor/lua-5.1.4/include'])
   else:
     bld.env.append_value('LINKFLAGS', '-llua -ldl'.split())
