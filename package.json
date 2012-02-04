@@ -11,6 +11,9 @@
   "engines": {
     "node": "~v0.4.11"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "2.5.5"
+    , "jade": ">= 0.0.1"
+  },
   "devDependencies": {}
 }

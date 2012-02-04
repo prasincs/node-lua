@@ -1,0 +1,53 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#luaCodeBox {
+  height: 400px;
+}
+
+.CodeMirror {
+  border: 1px solid black;
+  height: 400px;
+}
+
+.CodeMirror-scroll{
+  height: 400px;
+}
+
+.activeline {background: #e8f2ff !important;}
+
+
+#container {
+  width:100%;
+}
+
+#code, #output {
+  float:left;
+  width: 46.5%;
+  height: 90%;
+  margin: 1% 0 1% 1%;
+  padding: 1%;
+  color: #000;
+  height: 400px;
+}
+
+#output {
+  margin: 2% 1% 1% 0;
+  border: 1px solid black;
+  height: 377px;
+  background: #eee;
+}
+
+.clear {
+   height: 0;
+   font-size: 1px;
+   margin: 0;
+   padding: 0;
+   line-height: 0;
+   clear: both;
+}
