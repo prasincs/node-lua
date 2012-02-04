@@ -20,7 +20,7 @@ def configure(conf):
 
 def build(bld):
   obj = bld.new_task_gen('cxx', 'shlib', 'node_addon')
-  obj.target = 'node-lua'
-  obj.source = 'node-lua.cpp'
+  obj.target = 'node_lua'
+  obj.source = 'node_lua.cpp'
   bld.env.append_value('LINKFLAGS', '-llua -ldl'.split())
   
