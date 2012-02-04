@@ -23,7 +23,7 @@ def build(bld):
   obj = bld.new_task_gen('cxx', 'shlib', 'node_addon')
   obj.target = 'node_lua'
   obj.source = 'node_lua.cpp'
-  if environ['SERVER'] == 'heroku':
+  if 'SERVER' in environ:
     bld.env.append_value('LINKFLAGS', [ '/apps/vendor/lua-5.1.4/lib/liblua.a'])
   else:
     bld.env.append_value('LINKFLAGS', '-llua -ldl'.split())
