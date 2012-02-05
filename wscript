@@ -28,4 +28,4 @@ def build(bld):
   #bld.env.append_value('LINKFLAGS', [ srcpath()+'/heroku/lib/liblua.a'])
   #bld.env.append_value('INCPATHS', [ srcpath()+'/heroku/include'])
   #else:
-  bld.env.append_value('LINKFLAGS', '-lluaa -ldl'.split())
+  bld.env.append_value('LINKFLAGS', '-llua -ldl'.split())
