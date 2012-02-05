@@ -11,7 +11,7 @@ $(document).ready(function(){
   });
   var hlLine = editor.setLineClass(0, "activeline");
   $("#runLua").click(function(){
-    $.post("/runLua", {"code": editor.getValue()}, function(data){
+    $.post("/submitJob", {"code": editor.getValue()}, function(data){
       $("#output").html(data);
     });
   });

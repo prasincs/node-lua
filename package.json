@@ -9,11 +9,12 @@
     "url": "git@github.com:prasincs/node-cpp-lua.git"
   },
   "engines": {
-    "node": "~v0.4.11"
+    "node": "~v0.6.8"
   },
   "dependencies": {
     "express": "2.5.5"
     , "jade": ">= 0.0.1"
+    , "zmq": ">= 2.0.1"
   },
   "devDependencies": {}
 }
